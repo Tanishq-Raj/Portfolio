@@ -6,7 +6,7 @@ import { ParticleBackground } from "../../components/ui/particle-background";
 import { AnimatedText } from "../../components/ui/animated-text";
 
 // API endpoint configuration
-const API_URL = "http://localhost:5001";
+const API_URL = "https://portfolio-backend-o8rx.onrender.com";
 const API_TIMEOUT = 20000; // 20 seconds timeout
 
 export default function ContactSection() {
