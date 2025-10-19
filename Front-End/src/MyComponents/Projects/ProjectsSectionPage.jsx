@@ -18,13 +18,7 @@ const ProjectsPage = () => {
   const projects = [
     { title: 'Netflix Recommendation System', description: '', image: netflixImage, link: 'https://github.com/Tanishq-Raj/Netflix-Recommendation-System.git' },
     { title: 'CarePlus', description: '', image: careplusImage, link: 'https://github.com/Tanishq-Raj/CarePlus.git' },
-    { title: 'DAISY : Self Driving Car', description: '', image: daisyImage, link: 'https://github.com/Tanishq-Raj/DAISY.git' },
-    { title: 'Niri Global', description: 'Innovative AI-driven architecture design platform', image: Niri, link: 'https://niriglobal.com' },
-    { title: 'GT Financial Services', description: 'Cutting-edge fintech solutions for modern banking', image: GT, link: 'https://gtfinancialservices.in' },
-    { title: 'Synergy Institute', description: 'Advanced research facility for sustainable energy', image: Synergy, link: 'https://synergyinstitutes.com' },
-    { title: 'Devruks Globalization', description: 'Global expansion strategies for tech startups', image: Devruks, link: 'https://devruks.com' },
-    { title: 'Make My Trip', description: 'It is a clone project for the assignment submission', image: MMT, link: 'https://make-my-trip-clone-lyart.vercel.app' }
-   
+    { title: 'DAISY : Self Driving Car', description: '', image: daisyImage, link: 'https://github.com/Tanishq-Raj/DAISY.git' }
   ]
 
   const handleMouseMove = (event, index) => {
