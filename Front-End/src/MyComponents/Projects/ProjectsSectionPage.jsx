@@ -4,6 +4,11 @@ import { ArrowUpRight, ExternalLink } from 'lucide-react'
 import careplusImage from '../../assets/careplus.png'
 import netflixImage from '../../assets/netflix1.png'
 import daisyImage from '../../assets/daisy.png'
+import GT from '../../assets/GT.png'
+import Devruks from '../../assets/Devruks.png'
+import Synergy from '../../assets/Synergy.png'
+import Niri from '../../assets/NiriGlobal.png'
+import MMT from '../../assets/make-my-trip.png'
 
 const ProjectsPage = () => {
   const [hoveredProject, setHoveredProject] = useState(null)
@@ -14,8 +19,11 @@ const ProjectsPage = () => {
     { title: 'Netflix Recommendation System', description: '', image: netflixImage, link: 'https://github.com/Tanishq-Raj/Netflix-Recommendation-System.git' },
     { title: 'CarePlus', description: '', image: careplusImage, link: 'https://github.com/Tanishq-Raj/CarePlus.git' },
     { title: 'DAISY : Self Driving Car', description: '', image: daisyImage, link: 'https://github.com/Tanishq-Raj/DAISY.git' },
-    // { title: 'Devruks Globalization', description: 'Global expansion strategies for tech startups', image: Devruks, link: 'https://devruks.com' },
-    // { title: 'Make My Trip', description: 'It is a clone project for the assignment submission', image: MMT, link: 'https://make-my-trip-clone-lyart.vercel.app' },
+    { title: 'Niri Global', description: 'Innovative AI-driven architecture design platform', image: Niri, link: 'https://niriglobal.com' },
+    { title: 'GT Financial Services', description: 'Cutting-edge fintech solutions for modern banking', image: GT, link: 'https://gtfinancialservices.in' },
+    { title: 'Synergy Institute', description: 'Advanced research facility for sustainable energy', image: Synergy, link: 'https://synergyinstitutes.com' },
+    { title: 'Devruks Globalization', description: 'Global expansion strategies for tech startups', image: Devruks, link: 'https://devruks.com' },
+    { title: 'Make My Trip', description: 'It is a clone project for the assignment submission', image: MMT, link: 'https://make-my-trip-clone-lyart.vercel.app' }
    
   ]
 
@@ -40,16 +48,14 @@ const ProjectsPage = () => {
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <div className="mb-8">
-        <motion.h2
-          className="text-4xl font-bold"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          My Projects
-        </motion.h2>
-      </div>
+      <motion.h2
+        className="text-4xl font-bold mb-8"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        My Projects
+      </motion.h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <motion.div

@@ -10,11 +10,11 @@ export default function Header({ isMobile }) {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0)
   
   const navItems = [
-    { name: 'Home', href: '/#home' },
-    { name: 'About', href: '/#about' },
-    { name: 'Projects', href: '/#projects' },
-    { name: 'Work', href: '/#work' },
-    // { name: 'Contact', href: '/#contact' }
+    { name: 'Home', href: '#home' },
+    { name: 'About', href: '#about' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Work', href: '#work' },
+    // { name: 'Contact', href: '#contact' }
   ]
 
   useEffect(() => {

@@ -4,18 +4,17 @@ import Devruks from '../assets/Devruks.png';
 import Synergy from '../assets/Synergy.png';
 import Niri from '../assets/NiriGlobal.png';
 import MMT from '../assets/make-my-trip.png';
-import careplusImage from '../../assets/careplus.png'
-import netflixImage from '../../assets/netflix1.png'
-import daisyImage from '../../assets/daisy.png'
+import careplusImage from '../assets/careplus.png';
+import netflixImage from '../assets/netflix1.png';
+import daisyImage from '../assets/daisy.png';
 
 // Centralized project data that can be used across different components
 export const projects = [
   { 
     id: 1,
-    title: ' Netflix Recommendation System', 
-    description: '',
+    title: 'Netflix Recommendation System', 
+    description: 'Movie recommendation system using ML algorithms',
     image: netflixImage,
-    // cloudinaryUrl: 'https://res.cloudinary.com/dvfrcaw1c/image/upload/v1727845325/svfndwyjpmiieaeoriyd.png', 
     link: 'https://github.com/Tanishq-Raj/Netflix-Recommendation-System.git',
     category: 'web',
     tags: ['React', 'Node.js', 'MongoDB'],
@@ -24,9 +23,8 @@ export const projects = [
   { 
     id: 2,
     title: 'CarePlus', 
-    description: '',
+    description: 'Healthcare management application',
     image: careplusImage,
-    // cloudinaryUrl: 'https://res.cloudinary.com/dvfrcaw1c/image/upload/v1727845324/tpzin0k1cibvcuhcxp0x.png', 
     link: 'https://github.com/Tanishq-Raj/CarePlus.git',
     category: 'web',
     tags: ['React', 'NextJS'],
@@ -35,12 +33,11 @@ export const projects = [
   { 
     id: 3,
     title: 'DAISY : Self Driving Car', 
-    description: 'Advanced research facility for sustainable energy',
+    description: 'Advanced self-driving car prototype',
     image: daisyImage,
-    // cloudinaryUrl: 'https://res.cloudinary.com/dvfrcaw1c/image/upload/v1727845324/y9nzbik6clvd8ejbkhec.png',
     link: 'https://github.com/Tanishq-Raj/DAISY',
     category: 'ai',
-      tags: ['OpenCV', 'NumPy', ' Flask-CORS', ' Python',' Git'],
+    tags: ['OpenCV', 'NumPy', 'Flask-CORS', 'Python', 'Git'],
     featured: false
   },
   { 
